@@ -1,0 +1,63 @@
+/* !page login.php*/
+.gradient-custom-2 {
+    background: url(photo/PhotoLogoL1.png);
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+}
+/*///////////////////////////////////*/
+/* !page navbar.php*/
+
+.lien-login{
+    display:grid;
+    padding: 0.6em;
+    border-radius: 7px;
+    background:rgb(0, 0, 0);
+    border: 0.5px solid rgb(0, 0, 0);
+    color:aliceblue;
+    margin-right: 0.5cm;
+}
+ #navbarSupportedContent2{
+    margin-left: 20cm;
+ }
+/*///////////////////////////////////*/
+/*! page Profile.php*/
+/* ? Session off*/
+.text-p-profil{
+    text-align: center;
+    margin-top: 7cm;
+    margin-bottom: 20px;
+    font-size:xx-large;
+}
+
+.lien-login-profil{
+    display:grid;
+    padding: 0.6em;
+    border-radius: 7px;
+    background:rgb(0, 0, 0);
+    border: 0.5px solid rgb(0, 0, 0);
+    color:aliceblue;
+    margin-right: 0.5cm;
+}
+/* ? Session on*/
+.col-lg-7 {
+    flex: 0 0  auto;
+    width:max-content;
+}
+/*///////////////////////////////////*/
+
+/* ! page page_modifier.php.php*/
+.form-group{
+    margin-right: 2cm;
+    margin-left: 2cm;
+}
+ 
